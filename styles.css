@@ -1,0 +1,124 @@
+.attribution{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+.dark-cyan-bg{
+    background-color: hsl(185, 75%, 39%);
+}
+
+.dark-very-desaturated-blue-text{
+    color: hsl(229, 23%, 23%);
+}
+
+.dark-grayish-blue-text{
+    color: hsl(227, 10%, 46%)
+}
+
+.dark-grey-text{
+    color: hsl(0, 0%, 59%);
+}
+
+.kumbh-sans-regular {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+.kumbh-sans-bold {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+body{
+    font-size: 18px;
+}
+
+.background{
+    background-image: url("images/bg-pattern-top.svg"),
+                    url("images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-attachment: fixed;
+    background-position: left calc(-25rem + 30%) top -18rem, right calc(-25rem + 35%) bottom -18rem;
+    background-size: calc(40rem + 10%), calc(40rem + 10%);
+    background-repeat: no-repeat;
+}
+
+.card{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22rem;
+    height: auto;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card-top-bg{
+    background-image:url("images/bg-pattern-card.svg");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10rem;
+    
+}
+
+.card-bottom-bg{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.avatar{
+    border: solid white 5px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin-bottom: -3rem;
+}
+
+h1{
+    font-size: 1.3rem; 
+    line-height: 0.5;
+}
+
+h1 strong{
+    margin-right: 0.5rem;
+}
+
+h2{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.flexstats{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4rem 0;
+}
+
+.flexstats strong{
+    font-size: 1.3rem;
+}
+
+.flexstats p{
+    font-size: 0.65rem;
+    letter-spacing: 0.1rem;
+    line-height: 0;
+}
